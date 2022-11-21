@@ -19,11 +19,24 @@ button {
     padding: 10px 20px;
     border: 1px solid #5f9341;
     font-weight: bold;
+
+}
+
+button:hover {
+    background-color: white;
+    color: #5f9341;
 }
 
 #delete-btn {
     color: #5f9341;
     background: white;
+
+}
+
+#delete-btn:hover {
+    border: 1px solid white;
+    background-color: red;
+    color: white;
 }
 
 ul {
